@@ -1,0 +1,10 @@
+
+<h3>The RocketU Class</h3>
+
+<div class="students" ng-repeat="info in stuff">
+        <h1>{{ info.first_name }} {{ info.last_name }}</h1><br>
+        <h4>student - {{ info.id }}</h4><br>
+        <h3>Start Date: {{ info.klass.start_date }}</h3><br>
+        <a href="{{ info.resource_uri }}?format=json">Check out {{ info.first_name }}</a>
+    <hr>
+</div>

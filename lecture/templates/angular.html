@@ -1,0 +1,27 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="{% static "css/main.css" %}">
+
+    <script type="text/javascript" src="{% static "js/vendor/angular.js" %}"></script>
+    <script type="text/javascript" src="{% static "js/vendor/angular-resource.js" %}"></script>
+    <script type="text/javascript" src="{% static "js/vendor/angular-route.js" %}"></script>
+
+    <script type="text/javascript" src="{% static "js/app.js" %}"></script>
+    <script type="text/javascript" src="{% static "js/controllers/classController.js" %}"></script>
+    <script type="text/javascript" src="{% static "js/controllers/indexController.js" %}"></script>
+    <script type="text/javascript" src="{% static "js/controllers/studentController.js" %}"></script>
+</head>
+    <body>
+            <div class="topNav"><h1>Learning Angular at RocketU</h1><br><hr></div>
+            <div ng-app="exampleApp">
+
+                <div ng-view></div>
+
+            </div>
+            <div class="bottomNav"><hr><br><h1>It is stressssful</h1></div>
+    </body>
+</html>

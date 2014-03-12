@@ -29,4 +29,5 @@ urlpatterns = patterns('',
         kwargs={"tastypie_api_module": "v1_api",
                 "namespace": "lecture_tastypie_swagger"}
     ),
+    # url(r'^$', 'lecture.views.angular', name="angular")
 )

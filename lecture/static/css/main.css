@@ -1,0 +1,23 @@
+h1{
+    color:orangered;
+    text-align: center;
+}
+
+.topNav{
+    background-color:#000000;
+}
+
+h3{
+    color:orangered;
+    text-align: center;
+}
+
+.students{
+    padding-top:10px;
+    text-align: center;
+    background-color:lawngreen;
+}
+
+body{
+    background-color:darkgrey;
+}
